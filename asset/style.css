@@ -2,9 +2,15 @@ body{
     font-family: 'Nunito', sans-serif;
     margin: 0px;
 }
-h1,h2,h3{
+h1{
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2,h3{
+    font-weight: 700;
+    font-size: 40px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -30,4 +36,24 @@ button{
 .content{
     max-width: 1150px;
     margin: auto;
+}
+.flowers{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.image-flower{
+    height: 400px;
+    width: 350px;
+    border-radius: 170px 170px 0 0;
+}
+.image-flower img{
+    height: 360px;
+    width: 350px;
+    margin: auto;
+    object-fit: contain;
+    padding-top: 40px;
+}
+.image-flower p{
+    text-align: center;
+    text-decoration: underline;
 }
