@@ -17,7 +17,7 @@ h2,h3{
 img{
     width: 100%;
 }
-button{
+button , .button{
     background-color: #E55473;
     padding: 15px;
     color: #fff;
@@ -60,3 +60,22 @@ button{
 .flowers-second img{
 width: 275px;
 }
+input#email{
+    min-height: 40px;
+    width: 100%;
+}
+.email{
+    padding: 60px 0 60px 0;
+    background-image: url('image/Rectangle\ 9.png');
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+  }
+ 
